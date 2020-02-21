@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+#latest-work {
+    position: relative;
+    right: 150px;
+}
+
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+    text-align: justify;
+}
+
+#name{
+    color: palevioletred;
+    font-size: 40px;
+}
+#bio{
+    margin-right: 80px;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-top: 10%;
+    margin-left:5%;
+    padding-left:2%;
+}
+
+  .half-width img{
+    position: relative;
+    bottom: 100px;
+    right:50px;
+    height: 500px;
+    width: auto;
+    
+}  
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,purple,skyblue);
+    padding:10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 50px;
+}
+
+.biography img{
+    position: relative;
+    bottom: 230px;
+}
+.biography{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+.images{
+    width: 20%;
+    height: 80%;
+    float: left;
+    margin: 5% 5%;
+    transition: .5s all ease-in-out;
+    
+}
+.images:hover {
+    transform: scale(1.5);
+}
+
+#imageSection{
+    margin-left: 80px;
+}
+
+.client{
+    color: black;
+    text-align: center;
+}
+#ceo{
+    text-align: center;
+    color: dimgray;
+    font-size: x-small;
+}
+#message{
+    text-align: center;
+    border: 2px solid violet;
+    width: 30%;
+    background-color: rgb(209, 53, 105);
+    position: relative;
+    left: 35%;
+    border-radius: 10px;
+    color: white;
+}
+.social-menu ul{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+.social-menu ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+.social-menu ul li .fa{
+    font-size: 30px;
+    line-height: 60px;
+    transition: .5s;
+    color: #000;
+}
+.social-menu ul li .fa:hover {
+    color: #fff;
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width:60px;
+    height:60px;
+    background-color: #fff;
+    text-align: center;
+    transition: .5s;
+    border-radius: 100%;
+    
+}
+.social-menu ul li a:hover {
+    transform: translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #007785;
+}
+.social{
+    position: relative;
+    left: 37%;
+}
+
